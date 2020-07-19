@@ -10,7 +10,7 @@ var data ={
     artist_name:''
 };
 function getToken() {
-    axios.get('http://192.168.1.68:8888/token.txt',)
+    axios.get('http://abdielreyes.rocks:8888/token.txt',)
         .then(response => {
             // If request is good...
             token = "Bearer " + response.data;
